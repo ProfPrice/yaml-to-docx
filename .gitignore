@@ -17,3 +17,4 @@ vendor/
 # Project
 dist/
 tmp/
+yamltodocx.phar.gz
