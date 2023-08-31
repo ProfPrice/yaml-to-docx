@@ -108,3 +108,8 @@ a wonderful library for reading and writing Word documents.
 ## License
 
 **YAML → Docx** is licensed under the GNU General Public License.
+
+## To compile:
+```shell
+php phar.php src/ index.php yamltodocx.phar
+```
