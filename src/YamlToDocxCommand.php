@@ -2,11 +2,11 @@
 
 namespace YamlToDocx;
 
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Output\OutputInterface;
+use symfony\console\Command\Command;
+use symfony\console\Input\InputArgument;
+use symfony\console\Input\InputInterface;
+use symfony\console\Input\InputOption;
+use symfony\console\Output\OutputInterface;
 
 /**
  * The 'yamltodocx' command.
