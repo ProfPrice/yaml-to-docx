@@ -109,7 +109,13 @@ a wonderful library for reading and writing Word documents.
 
 **YAML → Docx** is licensed under the GNU General Public License.
 
-## To compile:
+## To compile as Docker container:
 ```shell
-php phar.php src/ index.php yamltodocx.phar
+composer update 
+docker build -t yamltodocx .
+```
+
+## To execute on template:
+```shell
+docker run -u $(id -u):$(id -g) -v $PWD:/app yamltodocx php index.php tests/data/tmpl.docx tests/data/val.yml output.docx
 ```

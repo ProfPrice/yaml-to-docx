@@ -12,12 +12,12 @@
     ],
     "bin": "index.php",
     "require": {
-        "phpoffice/phpword": "^0.16.0",
+        "phpoffice/phpword": ">=0.16.0",
         "symfony/console": "^4.2",
         "symfony/yaml": "^4.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": ">=7"
     },
     "autoload": {
         "classmap": [
